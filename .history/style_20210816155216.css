@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+section {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+/* ================================Sectiion 1================================== */
+.sec1 {
+  background-image: url("./images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  ali
+}
+nav > div {
+  flex: 1;
+  justify-content: left;
+  align-items: center;
+  display: flex;
+}
+nav > div > img {
+  height: 80px;
+}
+nav > div > span {
+  font-weight: bold;
+  font-size: 20px;
+}
+nav > ul {
+  display: flex;
+  flex: 4;
+}
+
+nav li {
+  list-style: none;
+  padding: 20px 30px;
+}
+nav li > h2 {
+  color: rgb(163, 29, 29);
+  font-weight: 800;
+  margin-bottom: 5px;
+  font-size: 40px;
+}
